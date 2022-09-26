@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap");
+
+@import "reset.css";
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+	max-width: 810px;
+}
+
+body {
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	color: #424551;
+	line-height: 1.6;
+}
+
+.conteiner {
+	margin: 190px 0 212px;
+}
+
+h1,
+.page {
+	color: #1e212c;
+}
+h1 {
+	font-size: 46px;
+	font-weight: 900;
+	line-height: 1.3;
+	margin-bottom: 92px;
+}
+.page-one,
+.page-two {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.5;
+}
+
+.page-one {
+	margin-top: 60px;
+}
+
+.page-two {
+	margin-bottom: 48px;
+	background: url('../img/icons/braces.png') 0 0 no-repeat;
+	padding-left: 58px;
+}	
+
+.paragraph {
+	margin: 24px 0px 48px 0px;
+}
+
+.paragraph__four {
+	margin: 0 0 28px 0;
+}
+
+.list li {
+	margin: 24px 0;
+	background: url('../img/icons/check.svg') 0 6px no-repeat;
+	padding-left: 32px;
+}
+
+img {
+	width: 810px;
+}
+
+
+
+/*==========================================================================*/
+
+
+
+.block {
+	background-color: bisque;
+	padding: 5px;
+	max-width: 300px;
+	min-height: 40px;
+	border: 6px double maroon;
+	margin-bottom: 20px;
+	}
+	
+	.inline {
+		border: 6px dotted darkgray;
+		line-height: 150%;
+		margin-bottom: 30px;
+	}
+	
+	.block:hover {
+		border: 10px double transparent;
+	}
+	
+	.image {
+		width: 500px;
+		border-radius: 33% 67% 70% 30% / 100% 97% 3% 0%;
+		margin-bottom: 20px;
+	}
+	
+	.block-one {
+		max-width: 400px;
+		background-color: skyblue;
+		margin: 35px;
+		padding: 15px;
+		border-radius: 40px/100px;
+	}
+	
+	.circle {
+	 border-radius: 50%;
+	 width: 200px;
+	 height: 200px;
+	 background-color: darkcyan ;
+	 overflow: hidden;
+	 box-shadow: 10px 10px 10px 10px cyan, inset 5px 5px 5px aquamarine;
+	 margin: 70px ;
+	 }
+	
+	.block-two {
+		background-color: silver;
+		padding: 15px;
+		margin: 15px;
+		opacity: 1;
+	}
+	
+	.block-two:hover {
+		opacity: 0;
+	}
+	
+	.block-three {
+		max-width: 500px;
+		background-color: pink;
+		margin: 15px;
+		padding: 15px;
+		transition: all 0.7s ease 0s;
+		opacity: 0;
+		visibility: hidden;
+	}
+	
+	footer:hover .block-three  {
+		opacity: 1;
+		visibility: visible;
+	}
+
+
+
